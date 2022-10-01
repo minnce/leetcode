@@ -10,3 +10,12 @@ class Solution(object):
             if listS[x] != listS[-(x+1)]:
                 return False
         return True
+        
+        
+        #ethan's soln
+        return s == s[::-1]
+    
+        #ethan soln 2
+        
+        return s == s.reverse()
+        
