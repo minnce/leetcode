@@ -1,0 +1,9 @@
+class Solution(object):
+    def transpose(self, matrix):
+        final = []
+        for x in range(0,len(matrix[0])):
+            dummy = []
+            for y in range(0,len(matrix)):
+                dummy.append(matrix[y][x])
+            final.append(dummy)
+        return final 
