@@ -1,0 +1,7 @@
+class Solution(object):
+    def smallestEvenMultiple(self, n):
+        x = 1
+        while True:
+            if n*x%2 == 0:
+                return n*x
+            x+=1
